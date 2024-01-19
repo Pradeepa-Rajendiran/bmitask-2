@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+</head>
+<body>
+    <script>
+        const massMark=95
+        const heightMark=1.88
+        const massJhon=85
+        const heightJhon=1.76
+        const BMIMark=massMark / heightMark ** 2
+        const BMIJhon=massJhon / (heightJhon * heightJhon)
+        console.log(BMIMark , BMIJhon );
+
+        if(BMIMark > BMIJhon ){
+            console.log("Mark's BMI is higher than Jhon's !")
+        }
+        else{
+            console.log("Jhon's BMI is higher than Mark's !")
+        }
+    </script>
+</body>
+</html>
